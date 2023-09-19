@@ -1,0 +1,35 @@
+.orders{
+    padding: 20px;
+    margin: 15px;
+}
+
+.orderContainer{
+    display: flex;
+    margin-top: 30px;
+}
+
+.orderContainer:nth-child(1){
+    margin-left: 12px;
+}
+
+.orderContainer>div>p{
+    margin-top: 8px;
+}
+
+.orderButtons{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.orderButtons>button{
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #FFD700;
+    padding: 10px;
+    cursor: pointer;
+}

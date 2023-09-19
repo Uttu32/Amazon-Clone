@@ -1,0 +1,115 @@
+.LoginMain{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.LoginBox{
+    border: 1px solid rgba(128, 128, 128, 0.381);
+    border-radius: 5px;
+    width: 280px;
+    padding: 20px;
+}
+
+.LoginBox>p{
+    font-size: 25px;
+    font-weight: 350;    
+    padding-bottom: 20px;
+}
+
+.LoginBox>form{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.LoginBox>form>label{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.LoginFormButton{
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: gold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.LoginBox>span{
+    font-size: 11px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+.LoginBox>span>a{
+    text-decoration: none;
+}
+
+.LoginDivider{
+    width: 280px;
+    padding: 20px;
+    margin-top: -15px;
+}
+
+.LoginDivider>p{
+    width: 30%;
+    font-size: 9.6px;
+    margin-left: 36%;
+    margin-top: -8px;
+    font-weight: 700;
+    color:gray;
+}
+
+.FirstLine{
+    width: 35%;
+    color: rgba(128, 128, 128, 0.381);
+    font-weight: 50;
+}
+
+.LastLine{
+    width: 35%;
+    margin-left: 66%;
+    margin-top: -6px;
+    color: rgba(128, 128, 128, 0.381);
+    font-weight: 50;
+}
+
+.LoginButton{
+    border: 1px solid rgba(128, 128, 128, 0.381);
+    font-size: 12px;
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.SpanFooter{
+    display: flex;
+    gap:10px;
+}
+
+.SpanFooter>a{
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.Foot{
+    font-size: 10px;
+}
+
+.ErrorMsg{
+    font-size:12px;
+    color:rgb(255, 20, 20);
+    position: absolute;
+    top: 39px;
+    font-weight: bold;
+  }

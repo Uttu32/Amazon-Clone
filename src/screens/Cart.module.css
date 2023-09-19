@@ -1,0 +1,115 @@
+.cart {
+  display: flex;
+  flex: 1;
+}
+
+.cartLeft {
+  flex: 0.7;
+  margin: 15px;
+  padding: 10px;
+}
+
+.cartRight {
+  flex: 0.3;
+  margin: 15px;
+  padding: 10px;
+}
+
+.cartContainer {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.cartDescription {
+  margin-top: 10px;
+  margin-left: 10px;
+  gap: 7px;
+  flex-grow: 1;
+}
+
+.cartButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cartButton {
+  background-color: #febe10;
+  padding: 5px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.cartButtonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartRightLocation {
+  display: flex;
+  margin-top: 10px;
+}
+
+.cartRightDescription {
+  margin-left: 10px;
+}
+
+.cartRightDescription > p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+
+.cartRightDescription > button {
+  margin-top: 7px;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: #febe10;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cartRightCoupon{
+    margin-top:15px;
+    display: flex;
+}
+
+.cartRightCoupon>div>h4{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cartRightCoupon>div>p{
+    margin-top: 4px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.cartRightCheckout{
+    margin-top: 14px;
+}
+
+.cartRightCheckoutPart{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+.cartRightCheckout>button{
+    outline:none;
+    border:none;
+    background-color: #FEBE10;
+    cursor:pointer;
+    border-radius: 4px ;
+    margin-top: 8px;
+    padding:10px;
+}
